@@ -11,7 +11,7 @@ option read-only (boot menu entry forensic/readonly).
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is used to change the default configuration of Realtek USB ethernet
-adapters, so the right driver (8152b) is used instead of the cdc-ncm driver
+adapters, so the right driver (r8152) is used instead of the cdc-ncm driver
 
 /lib/udev/rules.d/60-grml-external.rules
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
