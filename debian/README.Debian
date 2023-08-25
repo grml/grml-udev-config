@@ -7,6 +7,12 @@ grml-udev-config for Debian - Documentation of provided rules
 Mark new block devices as readonly when booting with kernel command line
 option read-only (boot menu entry forensic/readonly).
 
+/lib/udev/rules.d/50-usb-realtek-net.rules
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is used to change the default configuration of Realtek USB ethernet
+adapters, so the right driver (8152b) is used instead of the cdc-ncm driver
+
 /lib/udev/rules.d/60-grml-external.rules
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
