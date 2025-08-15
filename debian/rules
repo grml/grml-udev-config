@@ -9,9 +9,10 @@
 
 override_dh_install:
 	dh_install
-	dh_installudev --name=grml-forensic     --priority 01
-	dh_installudev --name=grml-external     --priority 60
-	dh_installudev --name=grml-usbdev       --priority 60
-	dh_installudev --name=brltty	        --priority 85
-	dh_installudev --name=grml-dm		--priority 89
-	dh_installudev --name=grml-blockdevices --priority 90
+	dh_installudev --name=grml-forensic        	--priority 01
+	dh_installudev --name=grml-usb-realtek-net 	--priority 50
+	dh_installudev --name=grml-external        	--priority 60
+	dh_installudev --name=grml-usbdev       	--priority 60
+	dh_installudev --name=brltty	       	 	--priority 85
+	dh_installudev --name=grml-dm			--priority 89
+	dh_installudev --name=grml-blockdevices 	--priority 90
